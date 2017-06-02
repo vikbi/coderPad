@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Session: <%= session %> </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container" style="margin-top: 1% ;">
+        <button class="btn btn-info" id="run"> Run</button>
+        <button class="btn btn-danger" id="clear"> Clear</button>
+      </div>
+    </header>
+    <div class="container">
+    	<div class="row">
+       		<div class="col-lg-6">
+      			<textarea id="code"></textarea>
+       		</div>
+       		<div class="col-lg-6">
+     			<pre id="result"></pre>
+       		</div>
+       	</div>
+    </div>
+
+    <footer class="footer">
+      <div class="container" style="margin-top: 1% ;">
+        	<span style="color:yellow">Hello Coder: <%= user %> </span>
+      </div>
+    </footer>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+   <script type="text/javascript" src="/main.js"></script>
+  </body>
+</html>

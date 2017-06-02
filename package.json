@@ -1,0 +1,19 @@
+{
+  "name": "coderpad",
+  "version": "1.0.0",
+  "description": "code simulator in real time",
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "^4.13.4",
+    "sandbox": "^0.8.6",
+    "socket.io": "^1.4.6"
+  },
+  "main": "index.js",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vikbi/coderPad.git"
+  },
+  "author": "vivek chaudhari",
+  "license": "ISC"
+}

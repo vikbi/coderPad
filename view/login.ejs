@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CoderPad</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="/main.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <div class="container container-table">
+    <div class="row vertical-center-row">
+      <h1 style="color:white;text-align: center;margin-bottom: 10%;">!! Start To Code In Javascript !!</h1>
+      <br><br><br>
+       <form>
+        <div class="text-center col-md-offset-2">
+                  <div class="col-md-4">
+                     <input id="userName" placeholder="Enter login name" autocomplete="off"></input>
+                  </div>
+                    <div class="col-md-4">
+                      <input id="sessionName" placeholder="Enter session name" autocomplete="off"></input>
+                    </div>               
+
+        </div>
+         <button class="btn btn-md btn-warning" id="login">Start Code! <i class="fa fa-sign-in"></i></button>
+         </form>
+    </div>
+</div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
